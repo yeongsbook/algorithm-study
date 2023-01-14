@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-    int A;
+  int A;
 
-    scanf("%d", &A);
+  scanf("%d", &A);
 
-    printf("%d", A - 543);
-    return 0;
+  printf("%d", A - 543);
+  return 0;
 }

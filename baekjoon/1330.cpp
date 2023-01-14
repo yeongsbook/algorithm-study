@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {
-    int A, B;
+  int A, B;
 
-    scanf("%d %d", &A, &B);
+  scanf("%d %d", &A, &B);
 
-    if (A < B) {
-      printf("<");
-    } else if (A > B) {
-      printf(">");
-    } else {
-      printf("==");
-    }
-    return 0;
+  if (A < B) {
+    printf("<");
+  } else if (A > B) {
+    printf(">");
+  } else {
+    printf("==");
+  }
+  return 0;
 }
